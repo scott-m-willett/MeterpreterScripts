@@ -1,5 +1,6 @@
 # Uploads 3proxy.zip in /opt/3proxy to the server and installs it as a service.
 # The proxy will be a socks proxy on port 1080 without authentication by default
+# Clone the repo https://github.com/scott-m-willett/3proxy directly to your local /opt/3proxy dir for this to function
 
 # A function to upload files
 def upload(session,file,file_name,path,trgloc = nil)
