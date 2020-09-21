@@ -11,6 +11,7 @@ Description
 -----------
 - socks_proxy.rb: Set up an open socks proxy on port 1080 on a windows host as a service
 - lower_defences.rb: Disable windows defender, the firewall, and an open powershell execution policy
+- upload_rpivot.rb: Uploads the python rpivot reverse proxy solution to the host
 
 Usage
 -----
