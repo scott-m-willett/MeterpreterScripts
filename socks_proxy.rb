@@ -53,5 +53,5 @@ read_output(r)
 
 # Final message
 print_status("Socks proxy accessible on port 1080 on the following addresses")
-r = session.sys.process.execute('ipconfig | findstr /r "[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*" | findstr "IPv4 Address" | findstr -v "Auto"', nil, {'Hidden' => true, 'Channelized' => true})
+r = session.sys.process.execute('cmd /c ipconfig | findstr /r "[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*" | findstr "IPv4 Address" | findstr -v "Auto"', nil, {'Hidden' => true, 'Channelized' => true})
 read_output(r)
